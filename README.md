@@ -8,4 +8,4 @@ wasd = player movement
 left mouse click - player attack
 
 ## Preview
-<iframe width="560" height="315" src="https://www.youtube.com/embed/I9QUsAhbKhg" frameborder="0" allowfullscreen></iframe>
+![GitHub Logo](https://github.com/lolohandri/2d_rpg/blob/master/demo.gif)
