@@ -1,0 +1,410 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.14f1 (eff2de9070d8) revision 15725278'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'uk' Physical Memory: 7541 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.14f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProjects/TEST_TASK
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52302
+Successfully changed project path to: D:/UnityProjects/TEST_TASK
+D:/UnityProjects/TEST_TASK
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11012] Host "[IP] 192.168.0.181 [Port] 0 [Flags] 2 [Guid] 2968309783 [EditorId] 2968309783 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QNQCNJ8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11012] Host "[IP] 192.168.0.181 [Port] 0 [Flags] 2 [Guid] 2968309783 [EditorId] 2968309783 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QNQCNJ8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 34.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.14f1 (eff2de9070d8)
+[Subsystems] Discovering subsystems at path D:/2022.3.14f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/TEST_TASK/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
+    Vendor:   NVIDIA
+    VRAM:     3949 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'D:/2022.3.14f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.14f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006265 seconds.
+- Loaded All Assemblies, in  0.720 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.307 seconds
+Domain Reload Profiling: 1026ms
+	BeginReloadAssembly (334ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (333ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (239ms)
+				TypeCache.ScanAssembly (219ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (307ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (238ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (158ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.925 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.938 seconds
+Domain Reload Profiling: 1863ms
+	BeginReloadAssembly (186ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (638ms)
+		LoadAssemblies (543ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (939ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (726ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (595ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 2.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 77 unused Assets / (245.7 KB). Loaded Objects now: 4875.
+Memory consumption went from 156.9 MB to 156.7 MB.
+Total: 5.229500 ms (FindLiveObjects: 0.497100 ms CreateObjectMapping: 0.194100 ms MarkObjects: 4.195000 ms  DeleteObjects: 0.341200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54102.358698 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png
+  artifactKey: Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png using Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31844f8e486a29404eb7205566ef0ef') in 0.498300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 95.275204 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png
+  artifactKey: Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png using Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '838a02a6d92678b63f51eb6a7eac6acd') in 0.354577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 54.705472 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png
+  artifactKey: Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png using Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b587382e3cfe8f878883d28e0ca644ec') in 0.316846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 75.418324 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png
+  artifactKey: Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png using Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675951c6e28b7f1621c93f20d1c2dc09') in 0.341231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 1440.482925 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png
+  artifactKey: Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed.png using Guid(cbc712910cfe87f488e9958aa8e280d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7018fae169920734d9dc959a6d35c2') in 0.420805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 134
+========================================================================
+Received Import Request.
+  Time since last request: 54.017097 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_0.asset
+  artifactKey: Guid(e302f477e53f20c48b9388623e572221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_0.asset using Guid(e302f477e53f20c48b9388623e572221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a021466cd625f598588ef9c50e98a9fe') in 0.033062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_15.asset
+  artifactKey: Guid(48d0a7a27b6fd71458971bb9754234ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_15.asset using Guid(48d0a7a27b6fd71458971bb9754234ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b80d265a32fd8727829978d452070334') in 0.014943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_43.asset
+  artifactKey: Guid(b391182628fb0b941bb7a480d30cb83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_43.asset using Guid(b391182628fb0b941bb7a480d30cb83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c08cd1ab223580a4457e8c0dca4e0d') in 0.022598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_36.asset
+  artifactKey: Guid(39a6563a0a91dc74e88d98db2b659361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_36.asset using Guid(39a6563a0a91dc74e88d98db2b659361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8661b9f50f91bd052a5132a0c111218c') in 0.018408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_37.asset
+  artifactKey: Guid(c8b023477f4dc694280e3a62371d146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_37.asset using Guid(c8b023477f4dc694280e3a62371d146d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4db2e2d2d94c67e1b8c73c1a36881b') in 0.018358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_46.asset
+  artifactKey: Guid(79718008d69b3b24686fc8c27acb9ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_46.asset using Guid(79718008d69b3b24686fc8c27acb9ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e870a89e734e4089fed8da8615ce2cd9') in 0.015516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_30.asset
+  artifactKey: Guid(40ac9a01bee937941a422f4b00d0dfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_30.asset using Guid(40ac9a01bee937941a422f4b00d0dfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d2dbef6da7aff976dc1db6e2f6114e') in 0.013187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_5.asset
+  artifactKey: Guid(bb429a9e3bd0ada4fbf59dd9fbf5369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_5.asset using Guid(bb429a9e3bd0ada4fbf59dd9fbf5369f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62e9d140970fcc71130f02eac6089938') in 0.017979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_10.asset
+  artifactKey: Guid(3f1926e0a01fc764f9138c91362e8471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_10.asset using Guid(3f1926e0a01fc764f9138c91362e8471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9030247ab9df77a7c2e612a6b21283eb') in 0.031599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_19.asset
+  artifactKey: Guid(8419a7ddf69d5924f9bfff68eb7555a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_19.asset using Guid(8419a7ddf69d5924f9bfff68eb7555a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8917288149508b3f097a16ddd039792e') in 0.020193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_11.asset
+  artifactKey: Guid(7a163f83f0d3f944faa40331bb455498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_11.asset using Guid(7a163f83f0d3f944faa40331bb455498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddd00fc5841ca20e4f1f9290ab54337') in 0.020391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_34.asset
+  artifactKey: Guid(d4b93ac290b1ff849a69bbcd13cecb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_34.asset using Guid(d4b93ac290b1ff849a69bbcd13cecb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9312f86e45433de2a95929dcab905581') in 0.023284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_27.asset
+  artifactKey: Guid(cfe5c0d975e5cdc478d96ed231a019f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_27.asset using Guid(cfe5c0d975e5cdc478d96ed231a019f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '714a89820e6fe99d15f4a81310dfa24a') in 0.017198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_22.asset
+  artifactKey: Guid(5860f768f1f3b9b4ba11f5ff9d1379ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_22.asset using Guid(5860f768f1f3b9b4ba11f5ff9d1379ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '401a05f4d7d77d783d579eddfc7c9401') in 0.011973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_20.asset
+  artifactKey: Guid(4ae4d35692bb1964daf631985691fc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_20.asset using Guid(4ae4d35692bb1964daf631985691fc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4610a2b2fc405559807c1952bc49783') in 0.012934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_41.asset
+  artifactKey: Guid(dda185033541ca7418ff08fe254fbeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_41.asset using Guid(dda185033541ca7418ff08fe254fbeba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faedb383583c85a78cac3803c9189230') in 0.014813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_9.asset
+  artifactKey: Guid(fba6e6263e53fda498762700c16c17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_9.asset using Guid(fba6e6263e53fda498762700c16c17c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3d8907a51ce8ceef76527d62b13181') in 0.015168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_38.asset
+  artifactKey: Guid(82d937aa2ce2a5045aaaea7d87e20544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_38.asset using Guid(82d937aa2ce2a5045aaaea7d87e20544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32eb7bfbba5dc30a282fa8c18a9b9342') in 0.012709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_23.asset
+  artifactKey: Guid(157cd8aa2e72b8a4d9d4fec44781cf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_23.asset using Guid(157cd8aa2e72b8a4d9d4fec44781cf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b59a997263443702e0f754baceef53') in 0.014056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_29.asset
+  artifactKey: Guid(56f4f369d289af14e89d0324612b833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_29.asset using Guid(56f4f369d289af14e89d0324612b833b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8b1e186df5141042810fdf16b268e9') in 0.016115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_39.asset
+  artifactKey: Guid(a830857dbc024d54598aa3439f58045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_39.asset using Guid(a830857dbc024d54598aa3439f58045d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e4f4befbf35dbd8a11c7eaf7047343') in 0.015220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_4.asset
+  artifactKey: Guid(190f93ef559f5784da957bb194cc9ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_4.asset using Guid(190f93ef559f5784da957bb194cc9ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc5f5926318929a8dc013483b7f41e1') in 0.015631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_45.asset
+  artifactKey: Guid(88138a5ab70326a49bebec912374b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Graphics/Tiny Dungeon/Tilemap/tilemap_packed_45.asset using Guid(88138a5ab70326a49bebec912374b388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93066d1ff0b1da8ac1ff3f7d1651002c') in 0.016594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
