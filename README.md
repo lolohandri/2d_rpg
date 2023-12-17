@@ -8,4 +8,4 @@ wasd = player movement
 left mouse click - player attack
 
 ## Preview
-[Watch the demo video](C:\Users\sviat\Videos\Captures)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/I9QUsAhbKhg" frameborder="0" allowfullscreen></iframe>
