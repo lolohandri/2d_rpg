@@ -8,4 +8,4 @@ wasd = player movement
 left mouse click - player attack
 
 ## Preview
-<iframe width="560" height="315" src="[https://www.youtube.com/embed/VIDEO_ID](https://www.youtube.com/watch?v=I9QUsAhbKhg)https://www.youtube.com/watch?v=I9QUsAhbKhg" frameborder="0" allowfullscreen></iframe>
+[Watch the demo video](C:\Users\sviat\Videos\Captures\TEST_TASK - Level 1 - Windows, Mac, Linux - Unity 2022.3.14f1_ _DX11_ 2023-11-30 17-47-00.mp4)
