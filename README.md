@@ -5,6 +5,7 @@ It is a 2D RPG game made with Unity. This example shows my current skills develo
 
 ## Usage
 wasd = player movement
+
 left mouse click - player attack
 
 ## Preview
