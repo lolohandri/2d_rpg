@@ -1,3 +1,3 @@
 Controls
-  wasd - player movement
-  left mouse - attack
+wasd - player movement
+left mouse - attack
